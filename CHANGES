@@ -1,0 +1,17 @@
+orbit.c from orbit.c.5
+----------------------
+
+1. External estimrho().
+2. Iterative Kepler solution multiplied by 100 to avoid small number
+   subtraction (no apparent effect, however). (Also in a few other functions).
+3. Lower difference threshold in Kepler solution: 1e-6 not 1e-6.
+4. General tidying up, -Wall warning fixes.
+5. Use of dot() for scalar multiplication.
+6. Leuschner correction numbers explicitly written out.
+
+gauss2.c vs. gauss.c
+--------------------
+
+gauss2 uses pointer arithmetic and eleiminates unecessary printfs, gauss.c 
+uses array notation.
+
