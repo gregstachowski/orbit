@@ -1,0 +1,5 @@
+#!/bin/csh -f
+set cmd = "gcc -Wall -o orbit orbit.c rad.c gauss2.c estimrho.c -lm"
+rm -fr orbit
+echo ${cmd}
+$cmd
