@@ -1,0 +1,6 @@
+To do list, as of June 2000.
+---------------------------
+1. Proper estimation of rho and use of the correct rho equations.
+2. Fix output for values < 0 or > 360.
+3. Tidy up internally.
+
