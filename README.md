@@ -8,14 +8,14 @@ to the appropriate pages in this edition).
 
 Requires an ASCII datafile, eight (8) lines:
 
-   comment
-   header
-   t(1)    R.A.(1)   dec(1)  Rx(1)   Ry(1)   Rz(1)
-   t(1)    R.A.(1)   dec(1)  Rx(2)   Ry(2)   Rz(2)
-   t(1)    R.A.(1)   dec(1)  Rx(3)   Ry(3)   Rz(3)
-   k*
-   alpha
-   epsilon
+     comment
+     header
+     t(1)    R.A.(1)   dec(1)  Rx(1)   Ry(1)   Rz(1)
+     t(1)    R.A.(1)   dec(1)  Rx(2)   Ry(2)   Rz(2)
+     t(1)    R.A.(1)   dec(1)  Rx(3)   Ry(3)   Rz(3)
+     k*
+     alpha
+     epsilon
 
 where t is in JD and R.A., dec. are both in decimal degrees,
 
